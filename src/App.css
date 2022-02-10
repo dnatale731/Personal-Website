@@ -1,19 +1,30 @@
-nav {
-  margin-right: 24px;
+main {
+  background-color: #EEE;
 }
 
-.nav {
-  margin: 12px;
-  padding: 0px;
+header {
+  background-color: #DDD;
+}
+
+
+.card {
+  background-color: #DDD;
   display: flex;
-  justify-content: flex-end;
+  margin: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-.nav li {
-  list-style-type: none;
-  margin-right: 24px;
+.card img {
+  margin: 3%;
+  width: 50%;
 }
 
-.contact p{
-  margin: 0px;
+.container {
+  display: flex;
+}
+
+#personal {
+  margin: 3%;
+  width: 50%;
 }

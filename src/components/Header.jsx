@@ -4,18 +4,15 @@ import "../App.css";
 export default class Header extends Component {
   render() {
     return (
-      <div>
-        <header>
-          <nav>
-            <ul className="nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-        </header>
-      </div>
+      <header className="container">
+        <h1>Domenico</h1>
+        <nav className="container">
+          <a href="#"><h2>Home</h2></a>
+          <a href="#"><h2>Project</h2></a>
+          <a href="#"><h2>About</h2></a>
+          <a href="#"><h2>Contact</h2></a>
+        </nav>
+      </header>
     );
   }
 }
