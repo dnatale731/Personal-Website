@@ -4,13 +4,27 @@ main {
 
 header {
   background-color: #DDD;
+  justify-content: space-between;
 }
 
+header h1 {
+  margin-left: 5%;
+}
+
+nav {
+  margin-right: 5%;
+  justify-content: space-evenly;
+}
+
+nav a {
+  margin: 1%;
+  text-decoration: none;
+}
 
 .card {
   background-color: #DDD;
   display: flex;
-  margin: 5%;
+  margin: 3%;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -22,6 +36,11 @@ header {
 
 .container {
   display: flex;
+}
+
+#icon {
+  width: 24px;
+  height: 24px;
 }
 
 #personal {

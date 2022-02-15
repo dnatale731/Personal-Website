@@ -19,10 +19,17 @@ export default class PersonalCard extends Component {
           </p>
           <address>
             <div className="container">
-              <img src="#" />
-              <p>Test</p>
+              <img src="#" id="icon" />
+              <p>Phone Number</p>
             </div>
-            
+            <div className="container">
+              <img src="#" id="icon" />
+              <p>Email</p>
+            </div>
+            <div className="container">
+              <img src="#" id="icon" />
+              <p>City/State</p>
+            </div>
           </address>
         </div>
       </Card>
